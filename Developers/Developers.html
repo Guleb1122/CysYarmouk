@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فريق المطورين </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo"><span></span></a>
+            <ul class="nav-links">
+                <li><a href="../index.html">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#developers">المطورين</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <canvas id="pixi-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="typing-text"></h1>
+            <p>فريق من المطورين الموهوبين يقدمون حلولًا رقمية مبتكرة</p>
+            <a href="#developers" class="btn">تعرف على الفريق</a>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">من نحن</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        نحن فريق من أربعة طلاب في تخصص الأمن السيبراني، جمعنا الشغف بالبرمجة والرغبة في التطوير.
+                        قمنا ببناء هذا الموقع بهدف عرض إمكانياتنا وما تعلمناه حتى الآن، وليكون خطوة أولى نحو مستقبل مليء
+                        بالإبداع والإنجازات.
+                        أنشأنا هذا المنتدى لنشارك تجربتنا المتواضعة، وسنواصل العمل والتطوير لإبراز أفكارنا ومهاراتنا
+                        للعالم.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="10">2</div>
+                        <div class="stat-text">مشروع مكتمل</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="1">0</div>
+                        <div class="stat-text">سنة خبرة</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="20">0</div>
+                        <div class="stat-text">عميل راضي</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developers Section -->
+    <section id="developers" class="section">
+        <div class="container">
+            <h2 class="section-title">فريق المطورين</h2>
+            <p class="section-subtitle">تعرف على العقول المبدعة وراء مشاريعنا الناجحة</p>
+
+            <!-- Developer Cards -->
+            <div class="developer-cards">
+                <div class="dev-card" data-dev="1">
+                    <div class="card-front">
+                        <div class="dev-image">
+                            <img src="img/رواسي.jpg" alt=" رواسي">
+                        </div>
+                        <div class="dev-info">
+                            <h3 class="typing-name"></h3>
+                            <div class="dev-skills">
+                                <span>Backend</span>
+                                <span><i class="fa-solid fa-database" style="color: #74C0FC;"></i>Bash</span>
+                                <span><i class="fa-brands fa-python" style="color: #74C0FC;"></i> Python</span>
+                                <span><i class="fa-brands fa-node" style="color: #FFD43B;"></i> Node.js</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dev-card" data-dev="2">
+                    <div class="card-front">
+                        <div class="dev-image">
+                            <img src="img/صورتها.jpg" alt="  طيبه ">
+                        </div>
+                        <div class="dev-info">
+                            <h3 class="typing-name"></h3>
+                            <div class="dev-skills">
+                                <span>Backend</span>
+                                <span> <i class="fa-solid fa-database" style="color: #74C0FC;"></i>Database</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dev-card" data-dev="3">
+                    <div class="card-front">
+                        <div class="dev-image">
+                            <img src="img/صورتي.jpg" alt="غالب">
+                        </div>
+                        <div class="dev-info">
+                            <h3 class="typing-name"></h3>
+                            <div class="dev-skills">
+                                <span>Frontend</span>
+                                <span><i class="fa-solid fa-septagon" style="color: #74C0FC;"></i> GSAP</span>
+                                <span>UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dev-card" data-dev="4">
+                    <div class="card-front">
+                        <div class="dev-image">
+                            <img src="img/رواسي.jpg" alt="  حيدر">
+                        </div>
+                        <div class="dev-info">
+                            <h3 class="typing-name"></h3>
+                            <div class="dev-skills">
+                                <span><i class="fa-brands fa-python" style="color: #74C0FC;"></i> Python</span>
+                                <span>Bash</span>
+                                <span><i class="fa-solid fa-database" style="color: #74C0FC;"></i> SQl</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer Details Sections -->
+    <section class="developer-details">
+        <!-- Developer 1 Details -->
+        <div class="dev-detail-section" id="dev-1-details">
+            <div class="container">
+                <div class="dev-detail-content">
+                    <div class="dev-detail-image">
+                        <img src="img/صورتي.jpg" alt="  غالب">
+                    </div>
+                    <div class="dev-detail-info">
+                        <h2>غالب</h2>
+                        <h3>مطور واجهات أمامية</h3>
+                        <div class="dev-experience">
+                            <div class="experience-bar" data-experience="90"></div>
+                            <span>خبرة في تطوير الواجهات الأمامية</span>
+                        </div>
+                        <p>المتعلم من الاخطاء لديه خبرة تزيد عن 1 سنوات في تطوير واجهات المستخدم باستخدام أحدث التقنيات
+                            مثل HTML وCSS وJavaScriptوGSAP.
+                            يتميز بقدرته على تحويل التصاميم المعقدة إلى واجهات مستخدم سلسة .</p>
+                        <div class="dev-skills">
+                            <h4>المهارات التقنية:</h4>
+                            <ul>
+                                <li><i class="fa-brands fa-html5" style="color: #ff4d00;font-size: 30px;"></i></li>
+                                <li><i class="fa-brands fa-css3-alt" style="color: #74C0FC;font-size: 30px;"></i></li>
+                                <li><i class="fa-brands fa-js" style="color: #FFD43B;font-size: 30px;"></i></li>
+                                <li>GSAP</li>
+                                <li><i class="fa-brands fa-python" style="color: #74C0FC;font-size: 30px;"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Developer 2 Details -->
+        <div class="dev-detail-section" id="dev-2-details">
+            <div class="container">
+                <div class="dev-detail-content reverse">
+                    <div class="dev-detail-image">
+                        <img src="img/صورتها.jpg" alt="  طيبه ">
+                    </div>
+                    <div class="dev-detail-info">
+                        <h2>  طيبه</h2>
+                        <h3>  مسؤولة عن العاب </h3>
+                        <div class="dev-experience">
+                            <div class="experience-bar" data-experience="85"></div>
+                            <span>خبرة في امور مختلفه </span>
+                        </div>
+                        <p> طيبة متخصصة في امور مختلفه ومتنوعه باستخدام Node.js و security Tools. لديها خبرة في
+                            تصميم
+                            .</p>
+                        <div class="dev-skills">
+                            <h4>المهارات التقنية:</h4>
+                            <ul>
+                                <li>Memes</li>
+                                <li>Networking Essentials <i class="fa-solid fa-network-wired" style="color: #74C0FC;"></i></li>
+                                <li>Logiccal Analysis</li>
+                                <li>Creative Vision</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Developer 3 Details -->
+        <div class="dev-detail-section" id="dev-3-details">
+            <div class="container">
+                <div class="dev-detail-content">
+                    <div class="dev-detail-image">
+                        <img src="img/رواسي.jpg" alt=" رواسي">
+                    </div>
+                    <div class="dev-detail-info">
+                        <h2> رواسي</h2>
+                        <h3> </h3>
+                        <div class="dev-experience">
+                            <div class="experience-bar" data-experience="95"></div>
+                            <span>Backend في التطوير </span>
+                        </div>
+                        <p> رواسي يتمتع بخبرة واسعة في جميع جوانب تطوير الواجهات الخلفيه.مساول عن
+                            تكامل جميع مكونات النظام بسلاسة.</p>
+                        <div class="dev-skills">
+                            <h4>المهارات التقنية:</h4>
+                            <ul>
+                                <li><i class="fa-brands fa-node" style="color: #63E6BE;font-size: 30px;"></i></li>
+                                <li>Express.js</li>
+                                <li>MongoDB <i class="fa-solid fa-leaf" style="color: #0d966d;font-size: 30px;"></i></li>
+                                <li><i class="fa-brands fa-js" style="color: #FFD43B;font-size: 30px;"></i></li>
+                                <li><i class="fa-brands fa-python" style="color: #74C0FC;font-size: 30px;"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Developer 4 Details -->
+        <div class="dev-detail-section" id="dev-4-details">
+            <div class="container">
+                <div class="dev-detail-content reverse">
+                    <div class="dev-detail-image">
+                        <img src="img/رواسي.jpg" alt="حيدر">
+                    </div>
+                    <div class="dev-detail-info">
+                        <h2> حيدر</h2>
+                        <h3>مطور مختلف الجوانب</h3>
+                        <div class="dev-experience">
+                            <div class="experience-bar" data-experience="80"></div>
+                            <span>خبرة في تطوير </span>
+                        </div>
+                        <p>حيدر لديه خبرة في تطوير بعض الألعاب وحل بعض الاخطاء </p>
+                        <div class="dev-skills">
+                            <h4>المهارات التقنية:</h4>
+                            <ul>
+                                <li><i class="fa-brands fa-python" style="color: #0015ff; font-size: 30px;"></i></li></li>
+                                <li>Bash</li>
+                                 <li>SQLE</li>
+                                <li><i class="fa-brands fa-html5" style="color: #ff4d00; font-size: 30px;"></i></li>
+                                <li><i class="fa-brands fa-css3-alt" style="color: #0004ff; font-size: 30px;"></i></li></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+
+    <!-- Contact Section -->
+   
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo"><span>.</span></a>
+                    <p>نقدم حلولًا رقمية مبتكرة تلبي احتياجات عملك في العصر الرقمي.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#developers">المطورين</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>خدماتنا</h3>
+                    <ul>
+                        <li><a href="#">تطوير الويب</a></li>
+                        <li><a href="#">تصميم UI/UX</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
